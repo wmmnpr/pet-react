@@ -1,11 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import Login from "./components/UserLogin.tsx";
+import HomePage from "./pages/HomePage.tsx";
+
 
 function App() {
 
   return (
       <>
-          <Login></Login>
+          <HomePage></HomePage>
       </>
   )
 }

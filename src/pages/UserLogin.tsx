@@ -18,7 +18,6 @@ const Login: React.FC = () => {
             .then(r => {
                 if ('success' === r.message) {
                     console.log("good")
-                    //navigate('/');
                 } else {
                     window.alert("Wrong email or password")
                 }
